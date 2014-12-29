@@ -10,196 +10,253 @@
     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
-
-
-  <div id="header" class="container-fluid">
-    <div class="main">
-      <div>
-        <ul class="list-unstyled list-inline pull-left">
-          <li>Home</li>
-          <li>About</li>
-          <li>Service</li>
-          <li>Contacts</li>
-        </ul>
-      </div>
-      <div>
-        <ul class=" list-unstyled list-inline pull-right">
-          <li><span class="glyphicon glyphicon-earphone"></span> 8 800 909 50 60</li>
-          <li><span class="glyphicon glyphicon-envelope"></span> support@domain.com</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div id="submenu" class="container-fluid">
-    <div class="main">
-        <div id="logo">
-          <img src="http://placehold.it/190x40" alt=""/>
-        </div>
-        <div id="submenuitems">
+  <header>
+    <div id="topmenu">
+      <div class="container">
+        <div id="mainmenu">
           <ul class="list-unstyled list-inline">
-            <li>KITCHEN <span class="caret"></span></li>
-            <li>LIVING ROOM <span class="caret"></span></li>
-            <li>BEDROOM <span class="caret"></span></li>
-            <li>CHILDREN&rsquo;S <span class="caret"></span></li>
-            <li>TEXTILES <span class="caret"></span></li>
+            <li><a class="mainmenu" href="#">Home<span class="border"></span></a></li>
+            <li><a class="mainmenu" href="#">About<span class="border"></span></a></li>
+            <li><a class="mainmenu" href="#">Service<span class="border"></span></a></li>
+            <li><a class="mainmenu" href="#">Contacts</a></li>
           </ul>
         </div>
-      <div class="pull-right">
-        <span class="glyphicon glyphicon-shopping-cart"></span>
-        <span class="glyphicon glyphicon-user"></span>
-        <span class="glyphicon glyphicon-search"></span>
+        <div id="contact">
+          <ul class=" list-unstyled list-inline">
+            <li class="mainmenu"><span><img src="images/earphone.png" alt="Earphone"/></span> 8 800 909 50 60<span class="border"></span></li>
+            <li class="mainmenu"><span><img src="images/mail.png" alt="Mail"/></span> support@domain.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="botmenu">
+      <div class="container">
+        <div id="logo">
+          <a href="#"><img src="images/logo.png" alt="Logo"/></a>
+        </div>
+        <div id="misc">
+          <ul class="list-unstyled list-inline">
+            <li><a href="#"><span><img src="images/cart.png" alt=""/></span></a></li>
+            <li><a href="#"><span><img src="images/user.png" alt=""/></span></a></li>
+            <li><a href="#"><span><img src="images/search.png" alt=""/></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="section"> <!--fali padding-->
+    <div class="container">
+      <div class="catalog">
+        <div class="clearfix"> <!--fali padding-->
+          <h2>Kitchen utensils</h2>
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+              <div class="sidebar">
+                <div>
+                  <h5>CATEGORIES</h5>
+                  <ul class="list-group">
+                    <li class="list-group-item">Tea and Coffee</li>
+                    <li class="list-group-item">Cutlery</li>
+                    <li class="list-group-item">Chopping Boards</li>
+                    <li class="list-group-item">Textile</li>
+                    <li class="list-group-item">Household appliances</li>
+                    <li class="list-group-item">Pots</li>
+                    <li class="list-group-item">Barbecue</li>
+                  </ul>
+                </div>
+                <div>
+                  <h5>SELECT COLOR</h5>
+                  <ul class="list-group">
+                    <li class="list-group-item">Purple</li>
+                    <li class="list-group-item">Blue</li>
+                    <li class="list-group-item">Green</li>
+                    <li class="list-group-item">Yellow</li>
+                    <li class="list-group-item">Orange</li>
+                    <li class="list-group-item">Red</li>
+                    <li class="list-group-item">Gray</li>
+                    <li class="list-group-item">Black</li>
+                    <li class="list-group-item">Multicolor</li>
+                  </ul>
+                </div>
+                <div>
+                  <h5>MATERIALS</h5>
+                  <ul class="list-group">
+                    <li class="list-group-item">All</li>
+                    <li class="list-group-item">Steel</li>
+                    <li class="list-group-item">Plastic</li>
+                    <li class="list-group-item">Ceramics</li>
+                    <li class="list-group-item">Wood</li>
+                  </ul>
+                </div>
+                <div>
+                  <h5>MORE OPTIONS</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12">
+              <div class="placeholderi">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="kutija">
+                      <div class="slika">
+                        <img src="http://placehold.it/260x200" alt=""/>
+                      </div>
+                      <div class="opis">
+                        <h5>MUGS WITH YELLOW STRIPES</h5>
+                        <p>Kitchen utensils</p>
+                        <span class="money">$15.50</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="kutija">
+                      <div class="slika">
+                        <img src="http://placehold.it/260x200" alt=""/>
+                      </div>
+                      <div class="opis">
+                        <h5>ODMJUK TEAPOT WHITE</h5>
+                        <p>Kitchen utensils</p>
+                        <span class="money">$20.50</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="kutija">
+                      <div class="slika">
+                        <img src="http://placehold.it/260x200" alt=""/>
+                      </div>
+                      <div class="opis">
+                        <h5>TEA INFUSER</h5>
+                        <p>Kitchen utensils</p>
+                        <span class="money">$2.50</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="kutija">
+                      <div class="slika">
+                        <img src="http://placehold.it/260x200" alt=""/>
+                      </div>
+                      <div class="opis">
+                        <h5>TRAY WITH BIRDS</h5>
+                        <p>Kitchen utensils</p>
+                        <span class="money">$4.50 </span>
+                        <span class="through"> $6.70</span>
+                    </div>
+                  </div>
+                  </div>>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="kutija">
+                      <div class="slika">
+                        <img src="http://placehold.it/260x200" alt=""/>
+                      </div>
+                      <div class="opis">
+                        <h5>PLATE OF WOOD</h5>
+                        <p>Kitchen utensils</p>
+                        <span class="money">$5.50</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="kutija">
+                      <div class="slika">
+                        <img src="http://placehold.it/260x200" alt=""/>
+                      </div>
+                      <div class="opis">
+                        <h5>PLACE MAT WITH PICTURES</h5>
+                        <p>Kitchen utensils</p>
+                        <span class="money">$3.50</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="kutija">
+                      <div class="slika">
+                        <img src="http://placehold.it/260x200" alt=""/>
+                      </div>
+                      <div class="opis">
+                        <h5>2-PIECE SALAD SERVERS SET</h5>
+                        <p>Kitchen utensils</p>
+                        <span class="money">$1.50</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="kutija">
+                      <div class="slika">
+                        <img src="http://placehold.it/260x200" alt=""/>
+                      </div>
+                      <div class="opis">
+                        <h5>12-PIECE CUTLERY SET</h5>
+                        <p>Kitchen utensils</p>
+                        <span class="money">$8.50</span>
+                        <span class="through">$10.50</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="kutija">
+                      <div class="slika">
+                        <img src="http://placehold.it/260x200" alt=""/>
+                      </div>
+                      <div class="opis">
+                        <h5>MUGS WITH YELLOW STRIPES</h5>
+                        <p>Kitchen utensils</p>
+                        <span class="money">$15.50</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="kutija">
+                      <div class="slika">
+                        <img src="http://placehold.it/260x200" alt=""/>
+                      </div>
+                      <div class="opis">
+                        <h5>PAPER LAMP WHITE</h5>
+                        <p>Kitchen utensils</p>
+                        <span class="money">$16.90</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="kutija">
+                      <div class="slika">
+                        <img src="http://placehold.it/260x200" alt=""/>
+                      </div>
+                      <div class="opis">
+                        <h5>GREEN RUNDLING</h5>
+                        <p>Kitchen utensils</p>
+                        <span class="money">$3.50</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <div class="kutija">
+                      <div class="slika">
+                        <img src="http://placehold.it/260x200" alt=""/>
+                      </div>
+                      <div class="opis">
+                        <h5>MAJLIS</h5>
+                        <p>Kitchen utensils</p>
+                        <span class="money">$3.50</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
       </div>
     </div>
   </div>
-  <div id="gray" class="main clearfix">
-    <div  id="carousel" class="clearfix">
-      <div id="slidertext">
-        <h2>Quisque Portitor</h2>
-        <br/>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dignissim sapien sed hendrerit maximus. Integer odio leo, pulvinar dapibus luctus vitae, pellentesque vitae libero.</p>
-        <br/>
-        <button class="btn btn-info">Detail</button>
-        <p class="pull-right">120&#36;</p>
-      </div>
-      <div id="sliderimg" >
-        <img src="http://placehold.it/600x400" alt=""/>
-      </div>
-    </div>
-    <hr/>
-    <div id="content" class="clearfix">
-      <h3>Kitchen utensils</h3>
-      <div class="pull-left" style="margin-top: 30px">
-        <div id="cat">
-          <li id="ajde" class="list-group-item"><strong>CATEGORIES</strong></li>
-          <ul id="ajmo" class="list-group">
-            <li class="list-group-item">Tea and Coffee</li>
-            <li class="list-group-item">Cutlery</li>
-            <li class="list-group-item">Chopping Boards</li>
-            <li class="list-group-item">Textile</li>
-            <li class="list-group-item">Household appliances</li>
-            <li class="list-group-item">Pots</li>
-            <li class="list-group-item">Barbecue</li>
-          </ul>
-        </div>
-        <div id="col">
-          <li id="ajdee" class="list-group-item"><strong>COLORS</strong></li>
-          <ul id="ajmoo" class="list-group">
-            <li class="list-group-item">Purple <input type="checkbox"/></li>
-            <li class="list-group-item">Blue <input type="checkbox"/></li>
-            <li class="list-group-item">Green <input type="checkbox"/></li>
-            <li class="list-group-item">Yellow <input type="checkbox"/></li>
-            <li class="list-group-item">Orange <input type="checkbox"/></li>
-            <li class="list-group-item">Red <input type="checkbox"/></li>
-            <li class="list-group-item">Gray <input type="checkbox"/></li>
-            <li class="list-group-item">Black <input type="checkbox"/></li>
-            <li class="list-group-item">Multicolor <input type="checkbox"/></li>
-          </ul>
-        </div>
-        <div id="mat">
-          <ul class="list-group">
-            <li class="list-group-item"><strong>MATERIAL</strong></li>
-            <li class="list-group-item">All <input type="radio"/></li>
-            <li class="list-group-item">Steel <input type="radio"/></li>
-            <li class="list-group-item">Plastics <input type="radio"/></li>
-            <li class="list-group-item">Ceramics <input type="radio"/></li>
-            <li class="list-group-item">Wood <input type="radio"/></li>
-          </ul>
-        </div>
-      </div>
-      <div class="item">
-        <img class="img" src="http://placehold.it/260x200" alt=""/>
-        <div class="txt">
-          <p><strong>MUGS WITH YELLOW STRIPES</strong></p>
-          <p>Kitchen utensils</p>
-        </div>
-      </div>
-      <div class="item">
-        <img class="img" src="http://placehold.it/260x200" alt=""/>
-        <div class="txt">
-          <p><strong>MUGS WITH YELLOW STRIPES</strong></p>
-          <p>Kitchen utensils</p>
-        </div>
-      </div>
-      <div class="item">
-        <img class="img" src="http://placehold.it/260x200" alt=""/>
-        <div class="txt">
-          <p><strong>MUGS WITH YELLOW STRIPES</strong></p>
-          <p>Kitchen utensils</p>
-        </div>
-      </div>
-      <div class="item">
-        <img class="img" src="http://placehold.it/260x200" alt=""/>
-        <div class="txt">
-          <p><strong>MUGS WITH YELLOW STRIPES</strong></p>
-          <p>Kitchen utensils</p>
-        </div>
-      </div>
-      <div class="item">
-        <img class="img" src="http://placehold.it/260x200" alt=""/>
-        <div class="txt">
-          <p><strong>MUGS WITH YELLOW STRIPES</strong></p>
-          <p>Kitchen utensils</p>
-        </div>
-      </div>
-      <div class="item">
-        <img class="img" src="http://placehold.it/260x200" alt=""/>
-        <div class="txt">
-          <p><strong>MUGS WITH YELLOW STRIPES</strong></p>
-          <p>Kitchen utensils</p>
-        </div>
-      </div>
-      <div class="item">
-        <img class="img" src="http://placehold.it/260x200" alt=""/>
-        <div class="txt">
-          <p><strong>MUGS WITH YELLOW STRIPES</strong></p>
-          <p>Kitchen utensils</p>
-        </div>
-      </div>
-      <div class="item">
-        <img class="img" src="http://placehold.it/260x200" alt=""/>
-        <div class="txt">
-          <p><strong>MUGS WITH YELLOW STRIPES</strong></p>
-          <p>Kitchen utensils</p>
-        </div>
-      </div>
-      <div class="item">
-        <img class="img" src="http://placehold.it/260x200" alt=""/>
-        <div class="txt">
-          <p><strong>MUGS WITH YELLOW STRIPES</strong></p>
-          <p>Kitchen utensils</p>
-        </div>
-      </div>
-      <div class="item">
-        <img class="img" src="http://placehold.it/260x200" alt=""/>
-        <div class="txt">
-          <p><strong>MUGS WITH YELLOW STRIPES</strong></p>
-          <p>Kitchen utensils</p>
-        </div>
-      </div>
-      <div class="item">
-        <img class="img" src="http://placehold.it/260x200" alt=""/>
-        <div class="txt">
-          <p><strong>MUGS WITH YELLOW STRIPES</strong></p>
-          <p>Kitchen utensils</p>
-        </div>
-      </div>
-      <div class="item">
-        <img class="img" src="http://placehold.it/260x200" alt=""/>
-        <div class="txt">
-          <p><strong>MUGS WITH YELLOW STRIPES</strong></p>
-          <p>Kitchen utensils</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="footer" class="container-fluid">
-    <div class="main">
-      <div class="ftitem">LOREM IPSUM</div>
-      <div class="ftitem">DOLOR SIT</div>
-      <div class="ftitem">ASASSA SSSS</div>
-      <div class="ftitem">AAAAAAAAA</div>
-    </div>
-  </div>
+
+
+
+
+
+
+
 
 
 

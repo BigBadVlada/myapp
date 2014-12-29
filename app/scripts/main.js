@@ -1,3 +1,5 @@
+'use strict';
+
 $(document).ready(function() {
   $('#ajde').click(function() {
     $('#ajmo').slideToggle('slow');
