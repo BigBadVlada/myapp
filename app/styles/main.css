@@ -325,3 +325,32 @@ footer h5 {
 
 [type="checkbox"]:focus {outline:0 !important;}
 [type="radio"]:focus {outline:0 !important;}
+
+
+#blab h5 {
+  font-family: Lato Black, Lato Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 16px;
+}
+
+
+
+.kategorije {
+  border: 1px solid #ecefef;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.nepar {
+  background: #ffffff;
+  padding: 9px 0 6px 15px;
+}
+
+.par {
+  background: #fafafa;
+  padding: 9px 0 6px 15px;
+}
+
+.kategorije input {
+  position: absolute;
+  right: 40px;
+}
