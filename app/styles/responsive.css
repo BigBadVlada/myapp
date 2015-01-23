@@ -1,0 +1,35 @@
+@media screen and (max-width: 1200px) {
+
+  #nav {
+    padding: 10px 0 0 0px;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+
+  #logo {
+    float: none;
+    text-align: center;
+  }
+
+  #nav li a {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  #nav {
+    float: none;
+  }
+
+ #mainmenu, #contact, #logo {
+   width: 100%;
+   text-align: center;
+ }
+
+}
+
+
